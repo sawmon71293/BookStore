@@ -53,10 +53,10 @@ function BookList() {
         </div>
         <div className="book-panel">
           <div className="book-card">
-            <div className="book-heading">
+            <div className="book-heading dune-padding">
               <small className="school-of">Action</small>
-              <h3 className="title">The Hunger Game</h3>
-              <span className="author">Suzanne Collins</span>
+              <h3 className="title">Dune</h3>
+              <span className="author">Frank Herbert</span>
             </div>
             <div className="actions">
               <button
@@ -82,7 +82,7 @@ function BookList() {
           <div className="percentage-container">
             <div className="oval" />
             <div className="percentage-complete">
-              <span className="percentage">64%</span>
+              <span className="percentage">8%</span>
               <span className="completed">Completed</span>
             </div>
           </div>
@@ -101,7 +101,7 @@ function BookList() {
           <div className="book-card">
             <div className="book-heading">
               <small className="school-of">Action</small>
-              <h3 className="title">The Hunger Game</h3>
+              <h3 className="title">Capital in the Twenty-first Century</h3>
               <span className="author">Suzanne Collins</span>
             </div>
             <div className="actions">
@@ -128,7 +128,7 @@ function BookList() {
           <div className="percentage-container">
             <div className="oval" />
             <div className="percentage-complete">
-              <span className="percentage">64%</span>
+              <span className="percentage">0%</span>
               <span className="completed">Completed</span>
             </div>
           </div>
@@ -149,10 +149,15 @@ function BookList() {
         <form id="add-book">
           <div>
             <input type="text" placeholder="Book title" />
-            <select className="select-category">
-              <option value="default" selected>Category</option>
-            </select>
-            <button type="button">Add Book</button>
+            <div className="select-wrapper">
+              <select className="select-category">
+                <option value="default" selected>Category </option>
+                <option value="option1">Action</option>
+                <option value="option2">Science Fiction</option>
+                <option value="option3">Economy</option>
+              </select>
+              <button type="button">Add Book</button>
+            </div>
           </div>
         </form>
       </section>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Roboto+Slab:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Roboto+Slab:wght@100;300;500&display=swap');
 
 * {
   margin: 0;
@@ -21,7 +21,7 @@
   --cool-blue: #4386bf;
   --black-5: rgba(0, 0, 0, 0.05);
   --azure: #0290ff;
-  --very-light-pink: #c4c4c4;
+  --very-light-pink: #afadad;
 }
 
 button {
@@ -56,6 +56,15 @@ nav a {
   align-items: center;
 }
 
+.nav-container a {
+  color: var(--black-two);
+  font-size: 0.9rem;
+}
+
+.nav-container a:nth-child(odd) {
+  color: var(--very-light-pink);
+}
+
 .humanIcon {
   font-size: 1rem;
   color: var(--color-primary);
@@ -74,6 +83,6 @@ nav a {
 .BookStore-CMS {
   width: 100rem;
   height: 89.625rem;
-  padding: 9.313rem 3.75rem 7.688rem 6.25rem;
+  padding: 4.313rem 3.75rem 7.688rem 6.25rem;
   background-color: var(--grey-two);
 }

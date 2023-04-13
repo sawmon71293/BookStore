@@ -10,8 +10,8 @@ export default function Rootlayout() {
         <nav className="panel-bg">
           <div className="nav-container">
             <h1 className="logo">BookStore CMS</h1>
-            <NavLink to="/">Books</NavLink>
-            <NavLink to="category">Category</NavLink>
+            <NavLink to="/">BOOKS</NavLink>
+            <NavLink to="category">CATEGORIES</NavLink>
           </div>
           <div className="human-container">
             <BsFillPersonFill className="humanIcon" />
