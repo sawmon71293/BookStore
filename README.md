@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math-magicians <a name="about-project"></a>
+# 📖 Book Store <a name="about-project"></a>
 
 **Book Store** is a website to understand how to parse a Zeplin design to create a UI.
 Functionalities -
