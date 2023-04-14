@@ -43,9 +43,9 @@ Remove a selected book
 
 ### Tech Stack
 
-<a name="built-with">JSX</a>
+<a name="built-with">JSX,</a>
 <a name="tech-stack">CSS,</a>
-<a name="tech-stack">React</a>
+<a name="tech-stack">React,</a>
 <a name="tech-stack">Redux</a>
 <!-- Features -->
 
