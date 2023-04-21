@@ -12,7 +12,7 @@ function BookList() {
         {books.map((book) => (
           <BookItem
             key={book.item_id}
-            item_id={book.item_id}
+            itemId={book.item_id}
             title={book.title}
             author={book.author}
             category={book.category}
