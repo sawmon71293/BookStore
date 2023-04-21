@@ -1,9 +1,8 @@
 <a name="readme-top"></a>
 
-# Preview 
+# Preview
 
 ![bookstore](https://user-images.githubusercontent.com/102650102/231937982-9e17268f-31c3-4396-b0c5-0f31e1aa6da2.png)
-
 
 # 📗 Table of Contents
 
@@ -22,6 +21,7 @@
   - [Usage](#usage)
   - [Run Tests](#runtests)
   - [Live](#live)
+
 - [👥 Authors](#authors)
 - [🔭 Future Features](#features)
 - [🤝 Contribution](#contributing)
@@ -47,6 +47,7 @@ Remove a selected book
 <a name="tech-stack">CSS,</a>
 <a name="tech-stack">React,</a>
 <a name="tech-stack">Redux</a>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -95,17 +96,18 @@ You can deploy this project using:
 - gitHub pages/
 - npm run build
 
-
 ### Usage
 
 - npm run start
 
 ### Run Tests <a name="runtests"></a>
+
 - npm test
 
 <!-- AUTHORS -->
 
 ### Live <a name="live"></a>
+
 - This page is yet to be deployed
 
 ## 👥 Authors <a name="authors"></a>
@@ -117,10 +119,10 @@ You can deploy this project using:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
 
 👤 **Kelvin Irungu**
+
 - GitHub: [@sawmon](https://github.com/Kel-nana)
 - Twitter: [@Twitterhandle](https://twitter.com/irungu69)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-irungu-838923249/)
-
 
 ## 🔭 Future Features <a name="features"></a>
 
@@ -160,3 +162,4 @@ I would like to thank Microverse for the opportunity to dream big.
 This project is [GNsU](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+>>>>>>> ce6a7b396190cee5cffad3d2ebcb5a2bd5b00c3b
