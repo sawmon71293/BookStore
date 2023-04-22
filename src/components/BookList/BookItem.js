@@ -8,7 +8,7 @@ const BookItem = ({
 }) => {
   const dispatch = useDispatch();
   return (
-    <div className="book-panel">
+    <div className="book-panel" id={itemId}>
       <div className="book-card">
         <div className="book-heading">
           <small className="school-of">{category}</small>
@@ -23,7 +23,7 @@ const BookItem = ({
             type="button"
             className="remove"
             onClick={() => {
-              dispatch(removeBook({ itemId }));
+              dispatch(removeBook(itemId));
             }}
           >
             Remove
