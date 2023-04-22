@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
-# Preview
   
- file:///home/mon/Pictures/Screenshots/BookStore.png
+
 
 # 📗 Table of Contents
 
