@@ -2,7 +2,7 @@
 
 # Preview
 
-![bookstore](https://user-images.githubusercontent.com/102650102/231937982-9e17268f-31c3-4396-b0c5-0f31e1aa6da2.png)
+![bookStore](BookStore.png)
 
 # 📗 Table of Contents
 
