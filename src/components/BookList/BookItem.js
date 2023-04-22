@@ -8,7 +8,10 @@ const BookItem = ({
 }) => {
   const dispatch = useDispatch();
   return (
-    <div className="book-panel">
+    <div
+      className="book-panel"
+      id={itemId}
+    >
       <div className="book-card">
         <div className="book-heading">
           <small className="school-of">{category}</small>
@@ -16,19 +19,26 @@ const BookItem = ({
           <span className="author">{author}</span>
         </div>
         <div className="actions">
-          <button type="button" className="comments">
+          <button
+            type="button"
+            className="comments"
+          >
             Comment
           </button>
           <button
             type="button"
             className="remove"
-            onClick={() => {
-              dispatch(removeBook({ itemId }));
+            onClick={(e) => {
+              e.preventDefault();
+              dispatch(removeBook(itemId));
             }}
           >
             Remove
           </button>
-          <button type="button" className="edit">
+          <button
+            type="button"
+            className="edit"
+          >
             Edit
           </button>
         </div>
@@ -43,7 +53,10 @@ const BookItem = ({
       <div>
         <div className="current-chapter">Current Chapter</div>
         <div className="chapter">Chapter 7</div>
-        <button className="update-progress" type="button">
+        <button
+          className="update-progress"
+          type="button"
+        >
           Update Progress
         </button>
       </div>
