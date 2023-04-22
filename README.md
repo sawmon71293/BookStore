@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
 
-  
+# Preview
 
+![bookStore](BookStore.png)
 
 # 📗 Table of Contents
 
@@ -158,7 +159,6 @@ I would like to thank Microverse for the opportunity to dream big.
 
 ## 📝 License <a name="license"></a>
 
-This project is [GNsU](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
->>>>>>> ce6a7b396190cee5cffad3d2ebcb5a2bd5b00c3b
