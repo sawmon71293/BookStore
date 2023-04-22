@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
 # Preview
+file:///home/mon/Pictures/Screenshots/BookStore.png
 
-![bookstore](https://user-images.githubusercontent.com/102650102/231937982-9e17268f-31c3-4396-b0c5-0f31e1aa6da2.png)
 
 # 📗 Table of Contents
 
